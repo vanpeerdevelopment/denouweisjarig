@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+
+$rvp-primary: mat-palette($mat-indigo);
+$rvp-accent: mat-palette($mat-pink);
+$rvp-warn: mat-palette($mat-red);
+$rvp-background: #fafafa;
+
+$rvp-theme: mat-light-theme((
+        color: (
+                primary: $rvp-primary,
+                accent: $rvp-accent,
+                warn: $rvp-warn,
+        )
+));

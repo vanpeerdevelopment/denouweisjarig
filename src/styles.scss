@@ -1,3 +1,9 @@
+@import '~@angular/material/theming';
+@import 'src/app/core/material/material-theme';
+
+@include mat-core();
+@include angular-material-theme($rvp-theme);
+
 html, body {
   height: 100%;
 }
@@ -5,4 +11,13 @@ html, body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+::selection {
+  color: mat-contrast($rvp-primary, 100);
+  background-color: mat-color($rvp-primary, 100);
 }

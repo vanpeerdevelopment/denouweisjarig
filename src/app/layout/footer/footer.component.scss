@@ -1,0 +1,56 @@
+@import '~@angular/material/theming';
+@import 'src/app/core/material/material-theme';
+
+$footer-height: 2rem;
+
+footer {
+  display: flex;
+  flex-direction: row;
+  height: $footer-height;
+
+  .left-shape {
+    flex: 0.6;
+    display: flex;
+    flex-direction: row;
+
+    .rectangle {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      background-color: mat-color($rvp-primary, default);
+      color: mat-color($rvp-primary, default-contrast);
+
+      .footer-text {
+        margin-left: 2rem;
+        font-weight: 600;
+      }
+    }
+
+    .triangle {
+      border-top: $footer-height solid mat-color($rvp-primary, default);
+      border-right: $footer-height solid transparent;
+    }
+  }
+
+  .right-shape {
+    flex: 0.4;
+    display: block;
+
+    .incomplete-line-hider {
+      position: absolute;
+      border-bottom: $footer-height solid $rvp-background;
+      border-right: $footer-height solid transparent;
+    }
+
+    .lines {
+      height: 100%;
+      background: repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 0.6rem,
+          mat-color($rvp-accent, default) 0.2rem,
+          mat-color($rvp-accent, default) 0.8rem,
+      );
+    }
+  }
+}
