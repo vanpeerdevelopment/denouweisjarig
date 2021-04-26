@@ -14,3 +14,7 @@ npx @angular/cli new denouweisjarig
 ```
 
 2. Angular material was added: `npx @angular/cli add @angular/material`
+
+3. Angular PWA was created: `npx @angular/cli add @angular/pwa`
+
+4. PWA icons created using: [maskable.app](https://maskable.app/editor)
