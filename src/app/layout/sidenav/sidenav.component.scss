@@ -1,0 +1,27 @@
+@import '~@angular/material/theming';
+@import 'src/app/core/material/material-theme';
+
+mat-sidenav-container {
+
+  height: 100%;
+
+  mat-sidenav {
+
+    width: 225px;
+
+    mat-nav-list {
+
+      .active {
+        background: mat-color($rvp-primary, default, 0.12);
+        color: mat-color($rvp-primary, default);
+      }
+    }
+  }
+
+  mat-sidenav-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

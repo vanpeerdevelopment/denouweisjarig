@@ -1,5 +1,5 @@
-<rvp-header></rvp-header>
-<div class="spacer">
+<rvp-header (menuClick)="sidenav.toggle()"></rvp-header>
+<rvp-sidenav #sidenav>
     <router-outlet></router-outlet>
-</div>
+</rvp-sidenav>
 <rvp-footer></rvp-footer>

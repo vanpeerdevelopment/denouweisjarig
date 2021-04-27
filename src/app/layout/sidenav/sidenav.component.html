@@ -1,0 +1,35 @@
+<mat-sidenav-container *ngIf="sidenavConfig$ | async as sidenavConfig">
+    <mat-sidenav [mode]="sidenavConfig.mode"
+                 [opened]="sidenavConfig.opened">
+        <mat-nav-list>
+            <div mat-subheader>Ga naar</div>
+            <mat-list-item
+                    (click)="navigateTo('/fietstocht/overzicht', sidenavConfig)"
+                    [ngClass]="{'active': isUrlActive('/fietstocht/overzicht')}">
+                <mat-icon matListIcon fontSet="material-icons-round">home</mat-icon>
+                <div matLine>Overzicht</div>
+            </mat-list-item>
+            <mat-list-item
+                    (click)="navigateTo('/fietstocht/1', sidenavConfig)"
+                    [ngClass]="{'active': isUrlActive('/fietstocht/1')}">
+                <mat-icon matListIcon fontSet="material-icons-round">pedal_bike</mat-icon>
+                <div matLine>Tocht 1</div>
+            </mat-list-item>
+            <mat-list-item
+                    (click)="navigateTo('/fietstocht/2', sidenavConfig)"
+                    [ngClass]="{'active': isUrlActive('/fietstocht/2')}">
+                <mat-icon matListIcon fontSet="material-icons-round">brunch_dining</mat-icon>
+                <div matLine>Tocht 2</div>
+            </mat-list-item>
+            <mat-list-item
+                    (click)="navigateTo('/fietstocht/3', sidenavConfig)"
+                    [ngClass]="{'active': isUrlActive('/fietstocht/3')}">
+                <mat-icon matListIcon fontSet="material-icons-round">park</mat-icon>
+                <div matLine>Tocht 3</div>
+            </mat-list-item>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <ng-content></ng-content>
+    </mat-sidenav-content>
+</mat-sidenav-container>
