@@ -1,1 +1,3 @@
-<div *ngIf="fietstocht | async as fietstocht">{{fietstocht.titel}}</div>
+<rvp-detail-card *ngIf="fietstocht | async as fietstocht"
+                 [fietstocht]="fietstocht">
+</rvp-detail-card>

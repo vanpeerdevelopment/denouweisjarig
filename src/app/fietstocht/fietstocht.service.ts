@@ -6,7 +6,10 @@ const rondZaventem: Fietstocht = {
     icoon: 'flight_takeoff',
     titel: 'Rond Zaventem',
     ondertitel: 'Vliegertjes spotten maar',
-    afbeeldingUrl: 'assets/fietstocht/zemst.png',
+    afstand: '52,7',
+    hoogtewinst: '100',
+    afbeeldingUrl: 'assets/fietstocht/rond-zaventem/rond-zaventem.png',
+    gpxUrl: 'assets/fietstocht/rond-zaventem/rond-zaventem.gpx',
     korteBeschrijving: 'Deze tocht vetrekt bij Dieter en rijdt via de fietsostrade naar de luchthaven van Zaventem. Van daaruit wordt de trip verder gezet richting Mechelen om vervolgens langs de Vaart terug koers te zetten naar Leuven.',
 };
 
@@ -15,7 +18,10 @@ const opnieuwRondZaventem: Fietstocht = {
     icoon: 'flight_land',
     titel: 'Opnieuw rond Zaventem',
     ondertitel: 'Weer vliegertjes spotten maar',
-    afbeeldingUrl: 'assets/fietstocht/zemst.png',
+    afstand: '52,7',
+    hoogtewinst: '100',
+    afbeeldingUrl: 'assets/fietstocht/rond-zaventem/rond-zaventem.png',
+    gpxUrl: 'assets/fietstocht/rond-zaventem/rond-zaventem.gpx',
     korteBeschrijving: 'Deze tocht vetrekt bij Dieter en rijdt via de fietsostrade naar de luchthaven van Zaventem. Van daaruit wordt de trip verder gezet richting Mechelen om vervolgens langs de Vaart terug koers te zetten naar Leuven.',
 };
 

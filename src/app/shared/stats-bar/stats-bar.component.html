@@ -1,0 +1,13 @@
+<div class="stat">
+    <mat-icon fontSet="material-icons-round">multiple_stop</mat-icon>
+    <span>{{fietstocht.afstand}} km</span>
+</div>
+<div class="stat">
+    <mat-icon fontSet="material-icons-round">moving</mat-icon>
+    <span>{{fietstocht.hoogtewinst}} m</span>
+</div>
+<div class="stat"
+     (click)="onDownload()">
+    <mat-icon fontSet="material-icons-round">download</mat-icon>
+    GPX
+</div>

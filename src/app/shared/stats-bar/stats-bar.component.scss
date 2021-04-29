@@ -1,0 +1,21 @@
+@import '~@angular/material/theming';
+@import 'src/app/core/material/material-theme';
+
+:host {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  background-color: mat-color($rvp-primary, 50);
+  color: rgba(0, 0, 0, 0.54);
+
+  .stat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    mat-icon {
+      margin-right: .5rem;
+    }
+  }
+}
