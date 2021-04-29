@@ -10,4 +10,11 @@
         <rvp-stats-bar [fietstocht]="fietstocht"></rvp-stats-bar>
         <p>{{fietstocht.korteBeschrijving}}</p>
     </mat-card-content>
+    <mat-card-actions align="end">
+        <button mat-button
+                color="primary"
+                (click)="onOverzichtClick()">
+            Overzicht
+        </button>
+    </mat-card-actions>
 </mat-card>

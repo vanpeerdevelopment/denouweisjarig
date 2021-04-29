@@ -24,4 +24,8 @@ export class FietstochtDetailComponent implements OnInit {
                 map(params => params.id),
                 map(id => this.fietstochtService.getFietstocht(id)));
     }
+
+    gaNaarOverzicht(): void {
+        this.router.navigateByUrl('/fietstocht/overzicht')
+    }
 }

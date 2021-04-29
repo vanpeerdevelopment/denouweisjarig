@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {Fietstocht} from '../../fietstocht/fietsttocht';
 
 @Component({
@@ -10,4 +10,10 @@ export class DetailCardComponent {
 
     @Input()
     fietstocht!: Fietstocht;
+    @Output()
+    overzichtClick: EventEmitter<void> = new EventEmitter<void>();
+
+    onOverzichtClick(): void {
+        this.overzichtClick.emit();
+    }
 }
