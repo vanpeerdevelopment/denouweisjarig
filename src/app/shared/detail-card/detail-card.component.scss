@@ -4,18 +4,32 @@
   mat-card {
     max-width: 600px;
 
-    mat-icon {
-
-      &.mat-card-avatar {
-        width: 2.5rem;
-        height: 2.5rem;
-        font-size: 2.5rem;
-      }
-    }
-
     rvp-stats-bar {
       margin: -1.35rem -1rem 1rem;
       height: 3rem;
+    }
+
+    mat-card-header {
+
+      mat-icon {
+
+        &.mat-card-avatar {
+          width: 2.5rem;
+          height: 2.5rem;
+          font-size: 2.5rem;
+        }
+      }
+
+      .mat-card-subtitle {
+        margin-bottom: 6px;
+      }
+    }
+
+    mat-card-content {
+
+      ::ng-deep mat-tab-body {
+        padding-top: .5rem;
+      }
     }
   }
 }

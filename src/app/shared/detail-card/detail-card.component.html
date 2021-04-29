@@ -8,7 +8,12 @@
         <mat-card-subtitle>{{fietstocht.ondertitel}}</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-        <p>{{fietstocht.korteBeschrijving}}</p>
+        <mat-tab-group mat-stretch-tabs
+                       dynamicHeight
+                       [disablePagination]="true">
+            <mat-tab label="Samenvatting">{{fietstocht.korteBeschrijving}}</mat-tab>
+            <mat-tab label="POI">Cafeetje om de hoek</mat-tab>
+        </mat-tab-group>
     </mat-card-content>
     <mat-card-actions align="end">
         <button mat-button
