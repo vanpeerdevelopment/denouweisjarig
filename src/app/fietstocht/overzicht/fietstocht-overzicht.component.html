@@ -1,1 +1,4 @@
-<div>Fietstocht overzicht</div>
+<rvp-overzicht-card *ngFor="let fietstocht of fietsttochten"
+                    [fietstocht]="fietstocht"
+                    (detailsClick)="gaNaarDetails(fietstocht)">
+</rvp-overzicht-card>

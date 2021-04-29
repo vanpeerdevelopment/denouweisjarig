@@ -1,25 +1,23 @@
 import {NgModule} from '@angular/core';
 import {CoreModule} from '../core/core.module';
 import {FietstochtOverzichtComponent} from './overzicht/fietstocht-overzicht.component';
-import {Fietstocht1Component} from './tocht1/fietstocht1.component';
-import {Fietstocht2Component} from './tocht2/fietstocht2.component';
-import {Fietstocht3Component} from './tocht3/fietstocht3.component';
+import {FietstochtDetailComponent} from './detail/fietstocht-detail.component';
+import {SharedModule} from '../shared/shared.module';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
     declarations: [
         FietstochtOverzichtComponent,
-        Fietstocht1Component,
-        Fietstocht2Component,
-        Fietstocht3Component,
+        FietstochtDetailComponent,
     ],
     imports: [
         CoreModule,
+        SharedModule,
+        RouterModule,
     ],
     exports: [
         FietstochtOverzichtComponent,
-        Fietstocht1Component,
-        Fietstocht2Component,
-        Fietstocht3Component,
+        FietstochtDetailComponent,
     ],
 })
 export class FietstochtModule {
