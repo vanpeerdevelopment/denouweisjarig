@@ -8,6 +8,7 @@
          [alt]="fietstocht.titel"
          (click)="onDetailsClick()">
     <mat-card-content>
+        <rvp-stats-bar [fietstocht]="fietstocht"></rvp-stats-bar>
         <p>{{fietstocht.korteBeschrijving}}</p>
     </mat-card-content>
     <mat-card-actions align="end">
