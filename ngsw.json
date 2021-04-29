@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1619725715162,
+  "timestamp": 1619729646809,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.e931bbb206409e26726d.js",
+        "/main.a9722685267481a48746.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -29,7 +29,8 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/fietstocht/zemst.png",
+        "/assets/fietstocht/rond-zaventem/rond-zaventem.gpx",
+        "/assets/fietstocht/rond-zaventem/rond-zaventem.png",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-192x192.png",
         "/assets/icons/icon-384x384.png",
@@ -42,7 +43,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/fietstocht/zemst.png": "ba96edbaf462d176e88e6553a9156d98a43c7ddd",
+    "/assets/fietstocht/rond-zaventem/rond-zaventem.gpx": "4cc9494a74f7a139144c1f0589fd87718dc50f13",
+    "/assets/fietstocht/rond-zaventem/rond-zaventem.png": "ba96edbaf462d176e88e6553a9156d98a43c7ddd",
     "/assets/icons/icon-128x128.png": "5713c392e2e6809e9891ff9172c083db94965c41",
     "/assets/icons/icon-192x192.png": "f93c9fffeeb44cb3d902f2316391338f3296d2b7",
     "/assets/icons/icon-384x384.png": "f59424f5d6ea732387847915dab683e5a1bf1672",
@@ -50,8 +52,8 @@
     "/assets/icons/icon-72x72.png": "73bb8e6ce534f4a8a1e15c0d84c4b8e664061932",
     "/assets/icons/icon-96x96.png": "7629611850a4bdb812a206d67e2a3b733ab8e753",
     "/favicon.ico": "bd0721725216795b8c0eb059a710af73ec741f4d",
-    "/index.html": "3da988e185785d9bc99050cecba7f6812a42d216",
-    "/main.e931bbb206409e26726d.js": "a2be2e8b8e72f0c7af0f4e9adfb72088a27fa946",
+    "/index.html": "a664a500970586649eb51854c26b90c981634266",
+    "/main.a9722685267481a48746.js": "f6657518e7efc475ce37164a8875999c28a16916",
     "/manifest.webmanifest": "d4df4c08a9de63f0e443554608dada96de0545f6",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
