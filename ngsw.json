@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1619734189790,
+  "timestamp": 1619817066197,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.cafea617abc96d9bdc51.js",
+        "/main.a64ca40bf6c33b03a63f.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -29,6 +29,12 @@
         "ignoreVary": true
       },
       "urls": [
+        "/assets/fietstocht/aarschot/aarschot.gpx",
+        "/assets/fietstocht/aarschot/aarschot.png",
+        "/assets/fietstocht/mechelen/mechelen.gpx",
+        "/assets/fietstocht/mechelen/mechelen.png",
+        "/assets/fietstocht/overijse/overijse.gpx",
+        "/assets/fietstocht/overijse/overijse.png",
         "/assets/fietstocht/rond-zaventem/rond-zaventem.gpx",
         "/assets/fietstocht/rond-zaventem/rond-zaventem.png",
         "/assets/icons/icon-128x128.png",
@@ -43,6 +49,12 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/assets/fietstocht/aarschot/aarschot.gpx": "507a6c0a66081cb4b4fbbd9e1a7e2b28a892e239",
+    "/assets/fietstocht/aarschot/aarschot.png": "2738d6256042868a6e16b736bd0646166bece140",
+    "/assets/fietstocht/mechelen/mechelen.gpx": "ddfc6277fe28a7285e548c0e069f2d5fd8a2fa19",
+    "/assets/fietstocht/mechelen/mechelen.png": "981b5dacc0efd6cce7fa81791ce9d41e38c3bd14",
+    "/assets/fietstocht/overijse/overijse.gpx": "232dfa63d7bd092684ca330f06d269cb495e7413",
+    "/assets/fietstocht/overijse/overijse.png": "6f09451a3d10d26d6953eded081d26893d02f7d0",
     "/assets/fietstocht/rond-zaventem/rond-zaventem.gpx": "4cc9494a74f7a139144c1f0589fd87718dc50f13",
     "/assets/fietstocht/rond-zaventem/rond-zaventem.png": "ba96edbaf462d176e88e6553a9156d98a43c7ddd",
     "/assets/icons/icon-128x128.png": "5713c392e2e6809e9891ff9172c083db94965c41",
@@ -52,8 +64,8 @@
     "/assets/icons/icon-72x72.png": "73bb8e6ce534f4a8a1e15c0d84c4b8e664061932",
     "/assets/icons/icon-96x96.png": "7629611850a4bdb812a206d67e2a3b733ab8e753",
     "/favicon.ico": "bd0721725216795b8c0eb059a710af73ec741f4d",
-    "/index.html": "82fc1147b86be118719dbc2a3614a8c0854de684",
-    "/main.cafea617abc96d9bdc51.js": "b5fd609a84f04ad47a62498a088728e3db1c9837",
+    "/index.html": "45f0b60e23a50eeac2b6935cdb3fa2ba0f2d79d3",
+    "/main.a64ca40bf6c33b03a63f.js": "b3c2ca581ba0d672228da74cb17131e3056c3c5a",
     "/manifest.webmanifest": "d4df4c08a9de63f0e443554608dada96de0545f6",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
