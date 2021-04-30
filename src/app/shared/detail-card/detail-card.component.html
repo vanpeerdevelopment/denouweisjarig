@@ -1,18 +1,28 @@
 <mat-card>
-    <img mat-card-image [src]="fietstocht.afbeeldingUrl"
-         [alt]="fietstocht.titel">
-    <rvp-stats-bar [fietstocht]="fietstocht"></rvp-stats-bar>
     <mat-card-header>
         <mat-icon mat-card-avatar fontSet="material-icons-round">{{fietstocht.icoon}}</mat-icon>
         <mat-card-title>{{fietstocht.titel}}</mat-card-title>
         <mat-card-subtitle>{{fietstocht.ondertitel}}</mat-card-subtitle>
     </mat-card-header>
+    <img mat-card-image [src]="fietstocht.afbeeldingUrl"
+         [alt]="fietstocht.titel">
+    <rvp-stats-bar [fietstocht]="fietstocht"></rvp-stats-bar>
     <mat-card-content>
         <mat-tab-group mat-stretch-tabs
                        dynamicHeight
                        [disablePagination]="true">
-            <mat-tab label="Samenvatting">{{fietstocht.korteBeschrijving}}</mat-tab>
-            <mat-tab label="POI">Cafeetje om de hoek</mat-tab>
+            <mat-tab label="Route">
+                <p class="route">{{fietstocht.beschrijving}}</p>
+            </mat-tab>
+            <mat-tab label="Plekjes">
+                <mat-list>
+                    <mat-list-item *ngFor="let poi of fietstocht.pois">
+                        <mat-icon matListIcon fontSet="material-icons-round">{{poi.icoon}}</mat-icon>
+                        <div matLine>{{poi.label}} </div>
+                        <div matLine class="mat-caption"> {{poi.km}} km</div>
+                    </mat-list-item>
+                </mat-list>
+            </mat-tab>
         </mat-tab-group>
     </mat-card-content>
     <mat-card-actions align="end">

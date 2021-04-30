@@ -8,4 +8,12 @@ export interface Fietstocht {
     afbeeldingUrl: string;
     gpxUrl: string;
     korteBeschrijving: string;
+    beschrijving: string;
+    pois: PointOfInterest[];
+}
+
+export interface PointOfInterest {
+    icoon: string;
+    km: string;
+    label: string;
 }

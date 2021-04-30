@@ -15,6 +15,7 @@ const materialModules = [
     MatListModule,
     MatCardModule,
     MatTabsModule,
+    MatListModule,
 ];
 
 @NgModule({
